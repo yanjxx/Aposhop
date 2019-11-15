@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>---</title>
+<link rel="stylesheet" href="__ADMIN__/styles/backstage.css">
+
+</head>
+
+<body>
+<!--<div id="showDetail"  style="display:none;">-->
+
+</div>
+<div class="details">
+
+                    <!--表格-->
+                    <table class="table" cellspacing="0" cellpadding="0">
+                        <thead>
+                            <tr>
+                                <th width="13%">电影名称</th>
+                                <th width="8%">价格</th>
+                                <th width="10%">放映时间</th>
+                                <th width="9%">语言</th> 
+                                 <th width="5%">版本</th>                             
+                          		   <th width="15%">验证码</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead><volist name='order_info' id='o'>
+                        <tbody>
+                
+                            <tr>
+                                <!--这里的id和for里面的c1 需要循环出来-->
+                                <td><input type="checkbox" id="c1" class="check" ><label for="c1" class="label">{$o.gname}</label></td>
+                                <td>{$o.gprice}</td>
+                                <td>{$o.gtime}</td>
+                                <td>{$o.glanguage}</td>
+                                <td>{$o.gversion}</td>
+                                <td>{$o.code}</td>
+                               
+                                <td align="center">
+                                			<a href=""><input type="button" value="修改" class="btn"></a>	
+                                            <a href=""><input type="button" value="删除" class="btn"></a>
+					                            
+					                       </td></volist>
+                                             <tr>
+                            	<td colspan="4"></td>
+                            </tr
+                               ></table>
+                </div>
+
+</body>
+</html>

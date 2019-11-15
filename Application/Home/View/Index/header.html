@@ -1,0 +1,51 @@
+<link type="text/css" rel="stylesheet" href="__HOME__/style/reset.css">
+<link type="text/css" rel="stylesheet" href="__HOME__/style/main.css">
+	<if condition="($_SESSION['username'])">
+	<div class="topBar">
+		<div class="comWidth">
+			<div class="leftArea">
+				<a href="#" class="collection">收藏慕课</a>
+			</div>
+			<div class="rightArea">
+				欢迎&nbsp;<strong>{$Think.session.username}</strong>&nbsp;来到慕课网！<a href="{:U('Car/car')}">购物车</a><a href="{:U('Index/logout')}">退出</a>
+			</div>
+		</div>
+	</div>
+
+	<else/>
+	<div class="topBar">
+    <div class="comWidth">
+      <div class="leftArea">
+        <a href="#" class="collection">收藏</a>
+      </div>
+      <div class="rightArea">
+        欢迎来到慕课网！<a href="{:U('login')}">[登录]&nbsp;</a><a href="{:U('reg')}">[免费注册]</a> 
+      </div>
+    </div>
+  </if>
+
+  	 <if condition="($_SESSION['username'])">
+		 
+    <div class="topBar">
+    <div class="comWidth">
+      <div class="leftArea">
+        <a href="#" class="collection">收藏</a>
+      </div>
+      <div class="rightArea">
+       欢迎&nbsp;<strong>{$Think.session.username}</strong>&nbsp;来到渔沙坛影院资讯网！<a href="{:U('User/index')}">个人中心&nbsp;</a><a href="{:U('Index/logout')}">退出</a>
+      </div>
+    </div>
+  </div>
+<div> 
+		 <else/>
+    <div class="topBar">
+    <div class="comWidth">
+      <div class="leftArea">
+        <a href="#" class="collection">收藏</a>
+      </div>
+      <div class="rightArea">
+        欢迎来到渔沙坛影院资讯网！<a href="{:U('login')}">[登录]&nbsp;</a><a href="{:U('reg')}">[免费注册]</a> 
+      </div>
+    </div>
+  </div>
+</if>
