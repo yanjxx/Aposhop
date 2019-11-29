@@ -1,0 +1,198 @@
+[ 2019-11-15T00:17:32+08:00 ] ::1 /moshop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\moshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005582s ]
+
+[ 2019-11-15T00:17:34+08:00 ] ::1 /moshop/index.php/Home/Index/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001955s ]
+
+[ 2019-11-15T00:17:35+08:00 ] ::1 /moshop/index.php/Home/Index/images/webLogo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2019-11-15T00:19:06+08:00 ] ::1 /moshop/index.php/Home/Index/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\moshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\moshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_user` (`username`,`password`,`email`) VALUES ('king','1','11@dds') [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2019-11-15T00:19:07+08:00 ] ::1 /moshop/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2] Use of undefined constant reg - assumed 'reg' (this will throw an Error in a future version of PHP) C:\wamp\www\moshop\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2019-11-15T00:20:14+08:00 ] ::1 /moshop/index.php/Home/Index/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2019-11-15T00:20:21+08:00 ] ::1 /moshop/index.php/Home/Index/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\moshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\moshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_user` (`username`,`password`,`email`) VALUES ('imooc123','1','11@dds') [ RunTime:0.0325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2019-11-15T00:20:22+08:00 ] ::1 /moshop/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] Use of undefined constant reg - assumed 'reg' (this will throw an Error in a future version of PHP) C:\wamp\www\moshop\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-11-15T12:12:37+08:00 ] ::1 /moshop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\moshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.229379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.229466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023678s ]
+
+[ 2019-11-15T12:13:35+08:00 ] ::1 /moshop/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\moshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+

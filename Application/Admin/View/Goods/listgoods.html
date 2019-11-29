@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>-.-</title>
+<link rel="stylesheet" href="__ADMIN__/styles/backstage.css">
+<link rel="stylesheet" href="__ADMIN__/scripts/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
+<script src="scripts/jquery-ui/js/jquery-1.10.2.js"></script>
+<script src="scripts/jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
+<script src="scripts/jquery-ui/js/jquery-ui-1.10.4.custom.min.js"></script>
+</head>
+
+<body>
+<div id="showDetail"  style="display:none;">
+
+</div>
+<div class="details">
+                    <div class="details_operation clearfix">
+                        <div class="bui_select">
+                            <input type="button" value="添&nbsp;&nbsp;加" class="add" onClick="addPro()">
+                        </div>
+                        <div class="fr">
+                            <div class="text">
+                                <span>商品价格：</span>
+                                <div class="bui_select">
+                                    <select id="" class="select" onChange="change(this.value)">
+                                    	<option>-请选择-</option>
+                                        <option value="iPrice asc" >由低到高</option>
+                                        <option value="iPrice desc">由高到底</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <span>上架时间：</span>
+                                <div class="bui_select">
+                                 <select id="" class="select" onChange="change(this.value)">
+                                 	<option>-请选择-</option>
+                                        <option value="pubTime desc" >最新发布</option>
+                                        <option value="pubTime asc">历史发布</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <span>搜索</span>
+                                <input type="text" value="" class="search"  id="search" onKeyPress="search()" >
+                            </div>
+                        </div>
+                    </div>
+                    <!--表格-->
+                    <table class="table" cellspacing="0" cellpadding="0">
+                        <thead>
+                            <tr>
+                                <th width="10%">商品名称</th>
+                                <th width="10%">放映时间</th>
+                                <th width="10%">片长</th>
+                                <th width="10%">语言</th>
+                                <th width="15%">版本</th>
+                                <th width="10%">剩余空位</th>
+                                <th width="10%">价格</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead> <volist name="goods_info" id="g"> 
+                        <tbody>
+                       
+                            <tr>
+                                <!--这里的id和for里面的c1 需要循环出来-->
+                                <td><input type="checkbox" id="c" class="check" value=><label for="c1" class="label"> </label>{$g.gname}</td>
+                                <td>{$g.gtime}</td>
+                                <td>{$g.grtime}</td>
+                                <td>{$g.glanguage} </td>
+                                <td>{$g.gversion}</td>
+                                 <td>{$g.gseat}</td>
+                                  <td>{$g.gprice}</td>
+                                <td align="center">
+                                				<a href="{:U('Film/delfilm',array('id'=>$g['id']))}"><input type="button" value="详情" class="btn" onClick=""><input type="button" value="修改" class="btn" onClick=""></a><a href="{:U('Goods/delgoods',array('id'=>$g['id']))}"><input type="button" value="删除" class="btn"onclick=" delPro"></a>
+					       
+                           
+                        </tbody></volist>
+                    </table>
+                </div>
+<script type="text/javascript">
+function showDetail(id,t){
+
+	function delPro(id){
+		if(window.confirm("您确认要删除嘛？添加一次不易，且删且珍惜!")){
+			window.location="doAdminAction.php?act=delPro&id="+id;
+		}
+	}
+	window.location="listPro.php?order="+val;
+	}
+</script>
+</body>
+</html>

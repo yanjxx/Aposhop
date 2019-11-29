@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+*{ list-style:none}
+.footer{
+	text-align:center;
+	margin-bottom:auto;margin:0px auto;
+width:90%;
+	}
+.fenge{ border-bottom:2px solid #03C}
+.juzhao{ width:200px; height:100px; margin:10px 0 0 20px;}
+.text-center{ margin-top:20px;}
+.goupiao1{ margin-left:30px; margin-top:20px;}.footer2{
+	
+	width:1600px;
+	}
